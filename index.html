@@ -2,28 +2,175 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>lafjonn projects</title>
+    <title>The Bike Shop</title>
     <link href="css/style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body class="page">
-    <div class="header">
-      <a class="header__logo"></a>
-      <nav class="header__nav"></nav>
-    </div>
-    <div class="slider">
+    <header class="header">
+      <nav class="header__nav">
+        <a class="header__logo">The Bike Shop</a>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">BICYCLES</a>
+            <ul class="header__submenu-list">
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">FIXED / SINGLE SPEED</a>
+              </li>
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">CITY BIKES</a>
+              </li>
+              <li class="header__submenu-item">
+                <a class="header__submenu-link" href="#">PREMIUM SERIES</a>
+              </li>
+            </ul>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">PARTS</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">ACCESSORIES</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">EXTRAS</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link  header__menu-link--basket" href="#">Basket</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="slider">
       <div class="slider__inner">
         <h1 class="slider__heading">HANDMADE BICYCLE</h1>
         <p class="slider__subheading">You <span class="slider__color">create</span> the <span class="slider__color">journey,</span> we supply the <span class="slider__color">parts.</span> </p>
         <p class="slider__subheading">You <span class="slider__color">create</span> the <span class="slider__color">journey,</span> we supply the <span class="slider__color">parts.</span> </p>
         <a class="slider__btn btn">Shop bikes</a>
       </div>
+      <button class="slider__btn slider__btn--left"></button>
+      <button class="slider__btn slider__btn--right"></button>
+    </section>
+    <section class="categories">
+      <h2 class="categories__heading">CATEGORIES</h2>
+      <div class="categories__inner">
+        <ul class="categories__list">
+          <li class="categories__item">
+            <h3 class="categories__name">FIXED / SINGLE SPEED</h3>
+            <p class="categories__description">Are You ready for the 27.5 Revolution?</p>
+            <a class="categories__link" href="#">GO TO STORE</a>
+          </li>
+          <li class="categories__item">
+            <h3 class="categories__name">PREMIUM SERIES</h3>
+            <p class="categories__description">Exclusive  Bike Components</p>
+            <a class="categories__link" href="#">GO TO STORE</a>
+          </li>
+          <li class="categories__item">
+            <h3 class="categories__name">CITY BIKES</h3>
+            <p class="categories__description">Street Playground</p>
+            <a class="categories__link" href="#">GO TO STORE</a>
+          </li>
+        </ul>
+      </section>
     </div>
-    <div class="categories"></div>
-    <div class="popular"></div>
-    <div class="contacts"></div>
-    <div class="footer"></div>
+    <section class="popular">
+      <h2 class="popular__heading">POPULAR BIKES</h2>
+      <div class="popular__inner">
+        <div class="popular__item">
+          <img class="popular__item-image" src="#" alt="FIXED GEAR" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">FIXED GEAR</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="popular__item">
+          <img class="popular__item-image" src="#" alt="BIG BOY ULTRA" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">BIG BOY ULTRA</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="popular__item">
+          <img class="popular__item-image" src="#" alt="SANCHAEZ" width="490" height="391">
+          <div class="popular__item-caption">
+            <div class="popular__info-block">
+              <span class="popular__name">SANCHAEZ</span>
+              <span class="popular__price">$249.00</span>
+            </div>
+            <div class="popular__actions-block">
+              <form class="popular__buy-form">
+                <p class="popular__options-input">
+                  <select class="popular__options-list" name="option">
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                  </select>
+                  <input class="popular__buy-btn  btn  btn--buy" type="submit" value="BUY">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <h2 class="contact__heading">CONTACT US</h2>
+      <p class="contact__description">Please contact us for all inquiries and purchase options.</p>
+      <form class="contact__form">
+        <input class="contact__name" type="text" name="name" id="name" placeholder="NAME">
+        <input class="contact__surname" type="text" name="surname" id="surname" placeholder="SURNAME">
+        <input class="contact__email" type="text" name="email" id="email" placeholder="USER@DOMAIN.COM">
+        <textarea class="contact__message" id="message" name="message" placeholder="MESSAGE"></textarea>
+        <input class="contact__btn  btn  btn--contact" type="submit" value="SEND">
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer__inner">
+        <a class="footer__logo">The Bike Shop</a>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a class="footer__link">BICYCLES</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link">PARTS</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link">ACCESSORIES</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__link">EXTRAS</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   <script src="js/script.js"></script>
   </body>
 </html>
