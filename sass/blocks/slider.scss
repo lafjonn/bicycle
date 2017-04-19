@@ -3,6 +3,10 @@
   height: 980px;
   margin-top: -20px;
   position: relative;
+  background-image: url(../../img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .slider__inner {
@@ -11,6 +15,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  background-color: rgba(54, 8, 8, 0.5);
 }
 
 .slider__heading {
@@ -18,12 +23,14 @@
   font-weight: 700;
   line-height: 32px;
   text-transform: uppercase;
+  color: $white;
 }
 
 .slider__subheading {
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
+  color: $white;
 }
 
 .slider__color {
@@ -48,4 +55,14 @@
   font-weight: 700;
   line-height: 32px;
   text-transform: uppercase;
+  color: $yellow;
+  background-color: $black;
+  min-width: 123px;
+  min-height: 43px;
+  min-height: 43px;
+  text-align: center;
+  padding-top: 6px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
 }

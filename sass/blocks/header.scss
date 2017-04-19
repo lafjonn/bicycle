@@ -5,6 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
+  color: $white;
 }
 
 .header__nav {
@@ -35,6 +36,10 @@
 
 .header__menu-item--bicycles:hover > .header__submenu-list {
   display: block;
+}
+
+.header__menu-link {
+  color: $white;
 }
 
 .header__menu-link--basket {

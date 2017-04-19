@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: $yellow;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 380px;
+  color: $black;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
