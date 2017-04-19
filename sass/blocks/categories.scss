@@ -11,6 +11,13 @@
   align-items: center;
 }
 
+.categories__heading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
 .categories__list {
   display: flex;
   justify-content: space-between;
