@@ -23,6 +23,7 @@
 
 .header__menu-item {
   position: relative;
+  min-height: 43px;
 }
 
 .header__submenu-list {
@@ -30,8 +31,16 @@
   position: absolute;
   width: 220px;
   box-sizing: border-box;
-  top: 20px;
-  left: -40px;
+  top: 35px;
+  left: -30px;
+  background-color: $yellow;
+}
+
+.header__submenu-link {
+  color: $black;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
 }
 
 .header__menu-item--bicycles:hover > .header__submenu-list {
@@ -40,6 +49,23 @@
 
 .header__menu-link {
   color: $white;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  min-height: 43px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.header__menu-link:hover {
+  color: $black;
+  background-color: $yellow;
+}
+
+.header__menu-link:active {
+  opacity: 0.6;
 }
 
 .header__menu-link--basket {
