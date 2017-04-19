@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu-list {
+  display: flex;
+  width: 470px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.header__menu-item {
+  position: relative;
+}
+
+.header__submenu-list {
+  display: none;
+  position: absolute;
+  width: 220px;
+  box-sizing: border-box;
+  top: 20px;
+  left: -40px;
+}
+
+.header__menu-item--bicycles:hover > .header__submenu-list {
+  display: block;
+}
+
+.header__menu-link--basket {
+  font-size: 0;
+}
