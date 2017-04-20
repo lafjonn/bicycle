@@ -31,9 +31,21 @@
   position: absolute;
   width: 220px;
   box-sizing: border-box;
-  top: 35px;
-  left: -30px;
+  top: 40px;
+  left: 0;
   background-color: $yellow;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+
+.header__menu-link--bicycles:hover::before {
+  content: "";
+  width: 88px;
+  height: 20px;
+  background-color: $yellow;
+  bottom: -2px;
+  left: 0;
+  position: absolute;
 }
 
 .header__submenu-link {
@@ -45,6 +57,11 @@
 
 .header__menu-item--bicycles:hover > .header__submenu-list {
   display: block;
+}
+
+.header__submenu-list:hover ~ .header__menu-link--bicycles {
+  color: $black;
+  background-color: $yellow;
 }
 
 .header__menu-link {
