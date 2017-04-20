@@ -38,12 +38,12 @@
   padding-left: 12px;
 }
 
-.header__menu-link--bicycles:hover::before {
+.header__submenu-list::before {
   content: "";
   width: 88px;
   height: 20px;
   background-color: $yellow;
-  bottom: -2px;
+  top: -15px;
   left: 0;
   position: absolute;
 }
@@ -59,7 +59,7 @@
   display: block;
 }
 
-.header__submenu-list:hover ~ .header__menu-link--bicycles {
+.header__submenu-list:hover + .header__menu-link--bicycles {
   color: $black;
   background-color: $yellow;
 }
