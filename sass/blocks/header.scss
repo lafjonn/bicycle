@@ -13,7 +13,7 @@
 .header__logo {
   position: relative;
   margin-top: 17px;
-  margin-left: 27px;
+  margin-left: 0;
 }
 
 .header__logo::before {
@@ -34,7 +34,7 @@
 
 .header__menu-list {
   display: flex;
-  width: 470px;
+  width: 500px;
   box-sizing: border-box;
   justify-content: space-between;
   text-transform: uppercase;
@@ -93,6 +93,12 @@
   padding: 5px 10px;
   box-sizing: border-box;
   border-radius: 5px;
+}
+
+.header__basket {
+  min-height: 43px;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .header__menu-link:hover {
