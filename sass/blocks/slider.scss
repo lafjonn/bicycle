@@ -1,6 +1,6 @@
 .slider {
   width: 100%;
-  height: 980px;
+  height: 1000px;
   margin-top: -20px;
   position: relative;
   background-image: url(../../img/bg-header.jpg);
@@ -24,6 +24,8 @@
   line-height: 32px;
   text-transform: uppercase;
   color: $white;
+  margin-bottom: 0;
+  margin-top: 25px;
 }
 
 .slider__subheading {
@@ -35,19 +37,6 @@
 
 .slider__color {
   color: $yellow;
-}
-
-.slider__control {
-  position: absolute;
-  top: 48%
-}
-
-.slider__control--left {
-  left: 0;
-}
-
-.slider__control--right {
-  right: 0;
 }
 
 .slider__btn {
