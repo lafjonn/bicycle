@@ -10,6 +10,22 @@
   justify-content: center;
 }
 
+.header__logo {
+  position: relative;
+  margin-top: 17px;
+  margin-left: 27px;
+}
+
+.header__logo::before {
+  content: "";
+  top: -18px;
+  left: 65px;
+  width: 29px;
+  height: 24px;
+  position: absolute;
+  background-image: url(../../img/logo-icon-element.png);
+}
+
 .header__nav {
   display: flex;
   justify-content: space-between;
