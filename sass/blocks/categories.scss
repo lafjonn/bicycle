@@ -14,8 +14,9 @@
 .categories__heading {
   font-size: 28px;
   font-weight: 700;
-  line-height: 32px;
   text-transform: uppercase;
+  padding-bottom: 75px;
+  padding-top: 75px;
 }
 
 .categories__list {
@@ -37,6 +38,19 @@
   justify-content: flex-start;
   padding-top: 130px;
   box-sizing: border-box;
+  position: relative;
+}
+
+.categories__item:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.17;
+  border-right: 173px solid transparent;
+  border-top: 144px solid transparent;
+  border-bottom: 144px solid #fcff19; 
+  border-left: 173px solid #fcff19;
 }
 
 .categories__item--fixed {
@@ -54,10 +68,11 @@
 .categories__name {
   font-size: 15px;
   font-weight: 700;
-  line-height: 32px;
   text-transform: uppercase;
   color: $yellow;
   margin: 0;
+  padding-bottom: 14px;
+  z-index: 1;
 }
 
 .categories__description {
@@ -65,13 +80,26 @@
   color: $white;
   font-size: 16px;
   font-weight: 300;
-  line-height: 32px;
+  padding-bottom: 25px;
+  z-index: 1;
 }
 
 .categories__link {
   color: $white;
   font-size: 12px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 43px;
   text-transform: uppercase;
+  border: 3px solid $white;
+  border-radius: 10px;
+  min-width: 123px;
+  min-height: 43px;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+  z-index: 1;
+}
+
+.categories__item:hover .categories__link {
+  display: block;
 }
