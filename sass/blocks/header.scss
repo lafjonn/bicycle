@@ -98,8 +98,20 @@
 
 .header__basket {
   min-height: 43px;
-  padding: 0 10px;
+  padding: 0 10px 0 15px;
   box-sizing: border-box;
+}
+
+.header__basket-svg {
+  fill: $white;
+}
+
+.header__basket:hover .header__basket-svg{
+  fill: $yellow;
+}
+
+.header__basket:active .header__basket-svg{
+  opacity: 0.3;
 }
 
 .header__menu-link:hover {
