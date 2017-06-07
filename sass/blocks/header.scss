@@ -36,8 +36,9 @@
   display: flex;
   width: 500px;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-transform: uppercase;
+  flex-wrap: wrap;
 }
 
 .header__menu-item {
