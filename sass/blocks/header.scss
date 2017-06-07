@@ -13,7 +13,7 @@
 .header__logo {
   position: relative;
   margin-top: 17px;
-  margin-left: 0;
+  margin-left: 10px;
 }
 
 .header__logo::before {
@@ -39,6 +39,7 @@
   justify-content: flex-end;
   text-transform: uppercase;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 .header__menu-item {
@@ -60,7 +61,7 @@
 
 .header__submenu-list::before {
   content: "";
-  width: 88px;
+  width: 98px;
   height: 20px;
   background-color: $yellow;
   top: -15px;
@@ -91,7 +92,7 @@
   line-height: 32px;
   text-transform: uppercase;
   min-height: 43px;
-  padding: 5px 10px;
+  padding: 5px 15px;
   box-sizing: border-box;
   border-radius: 5px;
 }
