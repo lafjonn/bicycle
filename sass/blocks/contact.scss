@@ -2,24 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 634px;
   background-image: url(../../img/bg-contact.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: $lightgrey;
+  padding-top: 66px;
+  padding-bottom: 83px;
 }
 
 .contact__heading {
   font-size: 28px;
   font-weight: 700;
-  line-height: 32px;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .contact__description {
-  font-weight: 400;
-  line-height: 32px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 .contact__form {

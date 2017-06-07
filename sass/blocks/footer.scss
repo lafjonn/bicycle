@@ -1,20 +1,45 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   background-color: $yellow;
+  padding-top: 30px;
+  padding-bottom: 17px;
+}
+
+.footer__inner {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  position: relative;
+}
+
+.footer__logo:before {
+  content: "";
+  top: -12px;
+  left: 48px;
+  width: 21px;
+  height: 17px;
+  position: absolute;
+  background-image: url(../../img/logo-black-element.png);
 }
 
 .footer__list {
   display: flex;
-  justify-content: space-between;
-  min-width: 380px;
+  justify-content: flex-end;
+  width: 380px;
+  padding-bottom: 11px;
+  flex-wrap: wrap;
 }
 
 .footer__link {
   color: $black;
   font-size: 15px;
   font-weight: 700;
-  line-height: 32px;
   text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
 }
