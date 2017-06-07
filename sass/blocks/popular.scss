@@ -22,9 +22,15 @@
 }
 
 .popular__item {
-  width: 490px;
   margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular__item-image {
+  width: 100%;
+  height: auto;
 }
 
 .popular__item-caption {
@@ -75,4 +81,7 @@
   &:active {
     opacity: 0.3;
   }
+}
+
+@media #{$desktop-small} {
 }
