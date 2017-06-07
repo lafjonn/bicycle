@@ -126,4 +126,13 @@
   text-transform: uppercase;
   color: $white;
   cursor: pointer;
+  outline: none;
+  
+  &:hover {
+    color: $yellow;
+    background-color: $black;
+  }
+  &:active {
+    opacity: 0.3;
+  }
 }

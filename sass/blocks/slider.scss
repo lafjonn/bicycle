@@ -54,3 +54,12 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.slider__btn:hover {
+  color: $black;
+  background-color: $yellow;
+}
+
+.slider__btn:active {
+  opacity: 0.3;
+}
