@@ -116,3 +116,29 @@
 .categories__btn:active {
   opacity: 0.3;
 }
+
+@media #{$tablet} {
+  .categories__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .categories__item {
+    width: 346px;
+    height: 288px;
+    margin-bottom: 50px;
+  }
+  .categories__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.17;
+    border-right: 173px solid transparent;
+    border-top: 144px solid transparent;
+    border-bottom: 144px solid #fcff19; 
+    border-left: 173px solid #fcff19;
+  }
+  .categories__btn {
+    display: block;
+  }
+}
