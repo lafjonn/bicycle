@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header  absolute">
       <nav class="header__nav">
-        <a class="header__logo" href="#">
-          <img class="header__logo-svg" src="img/logo-svg.svg" alt="The Bike Shop">
-        </a>
-        <ul class="header__menu-list">
+        <div class="header__logo-block">
+          <a class="header__logo" href="#">
+            <img class="header__logo-svg" src="img/logo-svg.svg" alt="The Bike Shop">
+          </a>
+          <button class="header__dropdown-btn" type="button">Меню</button>
+        </div>
+        <ul class="header__menu-list  header__menu-list--close">
           <li class="header__menu-item  header__menu-item--bicycles">
             <ul class="header__submenu-list">
               <li class="header__submenu-item">
