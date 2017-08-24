@@ -234,4 +234,19 @@
 
 @media #{$mobile} {
   
+  .header {
+    padding-bottom: 20px;
+  }
+  
+  .header__menu-item--bicycles {
+    margin-bottom: 90px;
+  }
+  
+  .header__submenu-list {
+    flex-direction: column;
+    left: 20px;
+    top: 30px;
+    width: auto;
+  }
+  
 }

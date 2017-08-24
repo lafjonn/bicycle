@@ -44,6 +44,7 @@
   padding: 5px 10px;
   box-sizing: border-box;
   border-radius: 5px;
+  line-height: 25px;
 }
 
 .footer__link:hover {
@@ -53,4 +54,23 @@
 
 .footer__link:active {
   opacity: 0.6;
+}
+
+@media #{$mobile} {
+  
+  .footer {
+    padding-top: 20px;
+  }
+  
+  .footer__inner {
+    width: auto;
+  }
+  
+  .footer__list {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    padding-bottom: 5px;
+  }
+  
 }

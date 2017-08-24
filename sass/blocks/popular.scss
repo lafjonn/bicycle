@@ -86,14 +86,27 @@
 }
 
 @media #{$tablet} {
+  
   .popular__inner {
     flex-direction: column;
   }
+  
   .popular__item {
     margin-left: 100px;
     margin-right: 100px;
   }
+  
   .popular__item-caption {
     justify-content: space-between;
   }
+  
+}
+
+@media #{$mobile} {
+  
+  .popular__item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }
