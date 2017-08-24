@@ -1,7 +1,7 @@
 .categories {
   width: 100%;
   min-height: 628px;
-  background-image: url(../../img/bg-categories.png);
+  background-image: url(../img/bg-categories.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,15 +57,15 @@
 }
 
 .categories__item--fixed {
-  background-image: url(../../img/category-fixed.png);
+  background-image: url(../img/category-fixed.png);
 }
 
 .categories__item--premium {
-  background-image: url(../../img/category-premium.png);
+  background-image: url(../img/category-premium.png);
 }
 
 .categories__item--city {
-  background-image: url(../../img/category-city.png);
+  background-image: url(../img/category-city.png);
 }
 
 .categories__name {
