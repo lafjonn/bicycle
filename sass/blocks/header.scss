@@ -132,11 +132,11 @@
   fill: $white;
 }
 
-.header__basket:hover .header__basket-svg{
+.header__basket:hover .header__basket-svg {
   fill: $yellow;
 }
 
-.header__basket:active .header__basket-svg{
+.header__basket:active .header__basket-svg {
   opacity: 0.3;
 }
 
@@ -167,6 +167,7 @@
   
   .header__menu-list {
     flex-direction: column;
+    padding-left: 20px;
   }
   
   .header__menu-list--close {
@@ -183,8 +184,54 @@
     width: 100%;
   }
   
+  .header__logo {
+    margin-left: 35px;
+  }
+  
   .header__menu-color {
     background-color: rgba(54, 8, 8, 1);
   }
+  
+  .header__submenu-list {
+    display: flex;
+    top: 0;
+    left: 115px;
+    width: 480px;
+    background-color: rgba(54, 8, 8, 1);
+    justify-content: space-between;
+  }
+  
+  .header__submenu-link {
+    color: $white;
+    font-size: 15px;
+    line-height: 32px;
+  }
+  
+  .header__submenu-list:hover + .header__menu-link--bicycles {
+    color: $black;
+    background-color: $yellow;
+  }
+  
+  .header__submenu-list::before {
+    display: none;
+  }
+  
+  .header__menu-item--bicycles:hover > .header__submenu-list {
+    display: flex;
+  }
+  
+  .header__menu-link:hover,
+  .header__submenu-link:hover {
+    color: $yellow;
+    background-color: rgba(54, 8, 8, 1);
+  }
+  
+  .header__submenu-list:hover + .header__menu-link--bicycles {
+    color: $yellow;
+    background-color: rgba(54, 8, 8, 1);
+  }
+}
+
+@media #{$mobile} {
   
 }
